@@ -2,31 +2,31 @@
 
 ## Dockerfile
 
-![image](https://github.com/basel-ay/Deploying-Node.js-App-in-Kubernetes/assets/64821137/1532bf53-8d4b-42af-afdc-24b18b7df781)
+![image](https://github.com/basel-ay/Deploying-Node.js-App-in-Kubernetes/assets/64821137/d74b3f47-6d92-47d0-9224-b4939fb4d739)
 
 
 ## Commands 
 
 `minikube status`
 
-![image](https://github.com/basel-ay/Deploying-Node.js-App-in-Kubernetes/assets/64821137/d03f7e21-f912-4984-9f48-80835691d05b)
+![image](https://github.com/basel-ay/Deploying-Node.js-App-in-Kubernetes/assets/64821137/ba4c3f3b-924e-4b0c-9bdd-e61f838ecb18)
 
 `kubectl create deployment k8s-web-server --image=baselayman/k8s-web-server`
 
 `kubectl expose deployment k8s-web-server --type=NodePort --port=3000`
 
-![image](https://github.com/basel-ay/Deploying-Node.js-App-in-Kubernetes/assets/64821137/5f1fc7e2-1b47-454a-942d-7f9e45cfc02b)
+![image](https://github.com/basel-ay/Deploying-Node.js-App-in-Kubernetes/assets/64821137/815de841-a5e5-4bed-b734-d9c520724e84)
 
-`kubectl get svc`
+`kubectl get services`
 
-![image](https://github.com/basel-ay/Deploying-Node.js-App-in-Kubernetes/assets/64821137/97de8a81-6d39-4f3a-bf47-62f646a0fd59)
+![image](https://github.com/basel-ay/Deploying-Node.js-App-in-Kubernetes/assets/64821137/970763ae-5145-47b2-8479-cf13a48a8d54)
 
 `minikube service k8s-web-server` or `kubectl port-forward service/k8s-web-server 3000:3000`
 
-![image](https://github.com/basel-ay/Deploying-Node.js-App-in-Kubernetes/assets/64821137/41ce81b7-afff-4eb7-873d-3a948de56f7f)
+![image](https://github.com/basel-ay/Deploying-Node.js-App-in-Kubernetes/assets/64821137/0f94dbbf-9b2b-4241-802e-d0773cd602cb)
 
-![image](https://github.com/basel-ay/Deploying-Node.js-App-in-Kubernetes/assets/64821137/87b8ce63-9e41-49cc-8ea1-85ce035cad96)
+![image](https://github.com/basel-ay/Deploying-Node.js-App-in-Kubernetes/assets/64821137/255ec0ac-4b6e-4dde-bf1f-3badb4c0c873)
 
 ## Output
 
-![image](https://github.com/basel-ay/Deploying-Node.js-App-in-Kubernetes/assets/64821137/7af7d924-ec4d-41a0-93bc-0b85ec3e9ad7)
+![image](https://github.com/basel-ay/Deploying-Node.js-App-in-Kubernetes/assets/64821137/7b7eff91-c777-45d8-8e08-5be8727a0c00)
